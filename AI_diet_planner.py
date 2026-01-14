@@ -1,6 +1,6 @@
 import os, streamlit as st
 import google.generativeai as genai
-genai.configure(api_key = 'AIzaSyDmpT3KULzBhSclwTJw6TDH4y-qBHZHdmg')
+genai.configure(api_key = [Sec_Key])
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 st.markdown(
